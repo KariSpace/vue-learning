@@ -2,9 +2,9 @@
 
 - [x] Create index.html
 
-* [] Add Vue.js to index.html
-* [] Create a Vue instance in app.js
-* [] Show message from Vue instance on page
+* [X] Add Vue.js to index.html
+* [X] Create a Vue instance in app.js
+* [X] Show message from Vue instance on page
 * [] Create New Todo Form
 * [] Call a function when the form is submitted
 * [] Create a string property on our data to store the user input
