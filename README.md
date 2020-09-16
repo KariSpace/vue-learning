@@ -11,7 +11,7 @@
   - [X] Watch the property change as we type in the input
 * [X] Log the user input when the form is submitted
 * [X] Create an array property on our data for todos
-* [] Push the new todo into the todos array, with done: false
+* [X] Push the new todo into the todos array, with done: false
 * [] Show the todos in a list
 * [] Check done on a todo to mark it as done
   - [] Show a line through the todo text
