@@ -6,7 +6,7 @@ const app = new Vue({
     },
     methods: {
         addTodo() {
-            console.log('submited')
+            console.log(this.newTodo)
         }
     }
 });
