@@ -12,6 +12,11 @@
     <main id="app">
         <h2>{{title}}</h2>
 
+        <ol v-for="todo in todos">
+            <li>{{todo.title}} | <input type="checkbox" id="checkbox" v-model="todo.done"></li>
+        </ol> 
+        
+        
         <form @submit.prevent="addTodo">
             <label for="newTodo">New task</label>
             <input v-model="newTodo" type="text" name="newTodo" id="newTodo">
